@@ -9,7 +9,7 @@ https://nextjs-portfolio-fxa3z4mex-angel-beats-projects.vercel.app/en
 
 ## 🌐 Preview
 
-![Portfolio Screenshot](./public/preview.png)
+![Preview](/preview.png)
 
 ## ✨ Features（特徴）
 

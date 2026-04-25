@@ -4,7 +4,12 @@ A clean, multilingual portfolio built with Next.js (App Router).
 Designed to be simple, fast, and focused on showcasing projects.
 
 ## 🌐 Live Demo（デモ）
-(Coming soon)
+
+https://nextjs-portfolio-fxa3z4mex-angel-beats-projects.vercel.app/en
+
+## 🌐 Preview
+
+![Portfolio Screenshot](./public/preview.png)
 
 ## ✨ Features（特徴）
 

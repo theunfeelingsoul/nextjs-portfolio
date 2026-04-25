@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default async function ContactPage({ params }){
-  const { locale } = params;
+  const { locale } = await params;
   const dict = await getDictionary(locale);
   const email = "nvngugi@gmail.com";
   const linkedin = "https://www.linkedin.com/in/victor-njoroge-ngugi/";
@@ -12,43 +12,41 @@ export default async function ContactPage({ params }){
   return(
     <main className="min-h-screen px-6 py-20 max-w-2xl mx-auto text-center">
 
+      {/*Social icons*/}
+      <div className="flex justify-center gap-6 mt-6 text-5xl mb-6">
 
+        <a
+          href={`mailto:${email}`}
+          title="Email"
+          aria-label="Email"
+          className="text-gray-700 hover:text-blue-600 transition"
+        >
+          <MdEmail />
+        </a>
 
+        <a
+          href={linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="LinkedIn"
+          aria-label="LinkedIn"
+          className="text-gray-700 hover:text-blue-600 transition"
+        >
+          <FaLinkedin/>
+        </a>
 
-<div className="flex justify-center gap-6 mt-6 text-5xl">
+        <a
+          href={github}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="GitHub"
+          aria-label="GitHub"
+          className="text-gray-700 hover:text-blue-600 transition"
+        >
+          <FaGithub />
+        </a>
 
-  <a
-    href={`mailto:${email}`}
-    title="Email"
-    aria-label="Email"
-    className="text-gray-700 hover:text-blue-600 transition"
-  >
-    <MdEmail />
-  </a>
-
-  <a
-    href={linkedin}
-    target="_blank"
-    rel="noopener noreferrer"
-    title="LinkedIn"
-    aria-label="LinkedIn"
-    className="text-gray-700 hover:text-blue-600 transition"
-  >
-    <FaLinkedin/>
-  </a>
-
-  <a
-    href={github}
-    target="_blank"
-    rel="noopener noreferrer"
-    title="GitHub"
-    aria-label="GitHub"
-    className="text-gray-700 hover:text-blue-600 transition"
-  >
-    <FaGithub />
-  </a>
-
-</div>
+      </div>
 
       {/* Title */}
       <h1 className="text-4xl font-bold mb-6">

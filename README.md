@@ -60,9 +60,13 @@ Then open:
 http://localhost:3000
 
 📬 Contact（連絡先）
+
 Email: nvngugi@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/victor-njoroge-ngugi/
+
 GitHub: https://github.com/theunfeelingsoul
+
 📌 Notes（補足）
 
 This portfolio is intentionally simple and will continue evolving as I build more projects and refine the design.

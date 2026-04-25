@@ -1,0 +1,61 @@
+{
+  "greeting": "Victor Ngugi",
+  "tagline": "Fullstack Developer & Graphic Designer",
+  "description": "I build fast, responsive, and user-friendly websites with database integration using Next.js. I also create eye-catching designs such as banners, posters, and creative visuals.",
+
+  "cta_projects": "View Projects",
+  "cta_contact": "Contact Me",
+
+  "projects_title": "Projects",
+  "projects": [
+    {
+      "slug": "web",
+      "title": "Portfolio Website",
+      "description": "My personal portfolio built with Next.js and Tailwind CSS."
+    },
+    {
+      "slug": "ecommerce",
+      "title": "E-commerce Store",
+      "description": "A full-stack shop app with authentication, cart, and checkout."
+    },
+    {
+      "slug": "graphics",
+      "title": "Graphic Design Showcase",
+      "description": "A gallery of banners, posters, and creative visuals."
+    }
+  ],
+
+  
+  "contact_title": "Get in Touch",
+  "contact_message": "I’m always open to discussing new projects, collaborations, or opportunities. Feel free to reach out — I’ll get back to you as soon as I can.",
+  "contact_email_label": "Email",
+  "contact_linkedin": "LinkedIn",
+  "contact_github": "GitHub",
+  "contact_response_note": "Typically responds within 1–2 days.",
+
+
+  "about_title": "About Me",
+  "about_description": "I am a full-stack web developer with a background in both development and design. I enjoy working across the full web stack — from backend systems that handle data and logic, to frontend interfaces that users interact with directly.",
+
+  "about_intro_title": "Who I Am",
+  "about_intro_text": [
+    "I’m particularly interested in how systems and user experience connect. On the backend, I focus on building reliable and maintainable structures. On the frontend, I care about clarity, usability, and making interfaces feel intuitive.",
+
+    "Alongside development, I also have experience in graphic design. This helps me think about layout, visual hierarchy, and communication in a more complete way. I value clean design that supports function rather than distracting from it.",
+    "I also enjoy working with data and presenting it in a way that is easy to read and understand."
+  ],
+  "about_skills_title": "What I Work With",
+  "about_skills": [
+    "Next.js / React",
+    "JavaScript (ES6+)",
+    "PHP / Laravel / Yii",
+    "HTML / CSS",
+    "UI Implementation",
+    "Graphic Design"
+  ],
+
+  "about_philosophy_title":"Direction",
+  "about_philosophy_text":[ 
+    "I am currently focusing on modern web development using Next.js, and I am using this portfolio as part of that learning process to improve how I structure and build real-world applications.",
+    "I am based in Japan and interested in connecting with other developers and working on collaborative projects. My goal is to continue improving as a developer and contribute to stable, well-structured web products."]
+} // end

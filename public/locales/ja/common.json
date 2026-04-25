@@ -1,0 +1,65 @@
+{
+  "greeting": "ビクター・ングギ",
+  "tagline": "フルスタック開発者 ＆ グラフィックデザイナー",
+  "description": "Next.jsを使って速くて便利なウェブサイトを作ります。データベースもつなげます。バナーやポスターなどのデザインもできます。",
+
+  "cta_projects": "プロジェクトを見る",
+  "cta_contact": "連絡する",
+
+  "projects_title": "プロジェクト",
+  "projects": [
+    {
+      "slug": "web-app",
+      "title": "ポートフォリオサイト",
+      "description": "Next.jsとTailwind CSSで作ったポートフォリオです。"
+    },
+    {
+      "slug": "ecommerce",
+      "title": "ネットショップ",
+      "description": "ログイン、カート、チェックアウト付きのショップアプリです。"
+    },
+    {
+      "slug": "graphics-design",
+      "title": "デザインギャラリー",
+      "description": "バナーやポスターなどのデザイン作品をまとめました。"
+    }
+  ],
+
+  "contact_title": "連絡",
+  "contact_title": "お問い合わせ",
+  "contact_message": "新しいプロジェクトやコラボレーションのご相談など、お気軽にご連絡ください。できるだけ早くご返信いたします。",
+  "contact_email_label": "メール",
+  "contact_linkedin": "LinkedIn",
+  "contact_github": "GitHub",
+  "contact_response_note": "通常1〜2日以内に返信いたします。",
+
+
+  "about_title": "自己紹介",
+  "about_description": "私はフルスタックWeb開発者であり、デザインの経験も持っています。バックエンドからフロントエンドまで、Web開発の全体を通して関わることが好きです。",
+
+  "about_intro_title": "私について",
+  "about_intro_text": [
+    
+    "特に、システムとユーザー体験のつながりに興味があります。バックエンドでは安定性や保守性を意識し、フロントエンドでは分かりやすさや使いやすさを重視しています。",
+
+    "また、グラフィックデザインの経験もあり、レイアウトや視覚的な情報整理にも関心があります。機能だけでなく、情報が正しく伝わるデザインを意識しています。",
+
+    "さらに、データを扱い、それを分かりやすく可視化・整理することにも興味があります。"
+  ],
+
+  "about_skills_title": "できること",
+  "about_skills": [
+  "Next.js / React",
+  "JavaScript",
+  "Node.js",
+  "UI・UXデザイン",
+  "グラフィックデザイン"
+  ],
+
+  "about_philosophy_title": "考え方",
+  "about_philosophy_text": [
+    "現在はNext.jsを中心としたモダンなWeb開発に取り組んでいます。このポートフォリオもその一環として、実践的な構造設計や開発スキルの向上を目的として作成しています。",
+    "現在日本に在住しており、他のエンジニアとのつながりや、共同でのプロジェクトにも関心があります。今後も開発者としてスキルを高め、安定したWebサービスの構築に貢献していきたいと考えています。"
+  ]
+
+} // end
